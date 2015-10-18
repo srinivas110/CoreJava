@@ -7,7 +7,7 @@ public class Employee {
 	}
 	public Employee(String empName){
 		//this() is the first statement inside parameter constructor for calling default const
-		//this();
+		this();
 		System.out.println("Parameter constructor-->"+empName);
 	}
 	
