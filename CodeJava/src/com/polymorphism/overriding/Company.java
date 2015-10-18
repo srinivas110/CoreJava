@@ -3,9 +3,9 @@ package com.polymorphism.overriding;
 public class Company {
 	
 	public Company(){
-		
+		System.out.println("Super class constructor");
 	}
-    public String getAddress(){
+    protected Object getAddress(){
     	return "Bangalore";
     }
 	
